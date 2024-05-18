@@ -1,0 +1,13 @@
+name: Vqa_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - transformers
+  - nltk
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - peft
